@@ -1,0 +1,87 @@
+.button {
+}
+
+.primary {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.primary:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.primary:disabled {
+  background-color: var(--color-primary-disabled);
+  color: var(--color-primary-text);
+  cursor: not-allowed;
+}
+
+.exit {
+  background-color: transparent;
+  color: var(--color-danger);
+  border: 2px solid var(--color-danger);
+}
+
+.exit:hover {
+  background-color: var(--color-danger);
+  color: var(--color-primary-text);
+  border: 2px solid transparent;
+}
+
+.black {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+.black:hover {
+  background-color: var(--color-secondary);
+}
+
+.green {
+  background-color: var(--green);
+  color: var(--text-contrast);
+}
+
+.red {
+  background-color: var(--color-danger);
+  color: var(--text-contrast);
+}
+
+.yellow {
+  background-color: var(--yellow);
+}
+
+.blue {
+  background-color: var(--blue);
+  color: var(--text-contrast);
+}
+
+.blue:disabled,
+.green:disabled,
+.red:disabled,
+.yellow:disabled,
+.red:disabled:hover,
+.green:disabled:hover,
+.yellow:disabled:hover,
+.blue:disabled:hover {
+  color: #464646;
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.green:hover {
+  background-color: var(--green-accent);
+}
+
+.red:hover {
+  /* background-color: var(--red-accent); */
+  filter: brightness(0.9);
+}
+
+.yellow:hover {
+  background-color: var(--yellow-accent);
+}
+
+.blue:hover {
+  background-color: var(--blue-accent);
+}
